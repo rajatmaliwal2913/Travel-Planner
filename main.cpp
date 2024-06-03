@@ -129,3 +129,21 @@ int main() {
 
     return 0;
 }
+
+// SAMPLE INPUT AND OUTPUT
+/*Enter the number of cities: 4
+Enter the number of flights: 5
+Enter flight details (Departure City, Arrival City, Departure Time (HHMM), Arrival Time (HHMM), Flight Number, Price):
+1 2 0800 0900 AA123 100
+1 3 0700 0800 BB456 200
+2 3 1000 1100 CC789 150
+3 4 1200 1300 DD012 100
+2 4 0900 1000 EE345 300
+Enter the number of queries: 2
+Enter each query (Source City, Destination City, Earliest Departure Time (HHMM), Latest Arrival Time (HHMM)):
+1 4 0600 1400
+Cheapest trip cost: 300
+2 4 0800 1300
+Cheapest trip cost: 250
+*/
+
